@@ -1,33 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
+import Button from '@mui/joy/Button';
+import ButtonGroup from '@mui/joy/ButtonGroup';
+import Stack from '@mui/joy/Stack';
+import CenterArea from './CenterArea';
+import LowerArea from './LowerArea';
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="frontarea">
+    <div className="title">HORIZON</div>
+    {/*} <div className="collegetitle">Ajay Kumar Garg <br/>Engineering College</div> */}
+    <div className="titledesc">Exploring Extremities and Beyond...</div>
+    <div className="navbar">
+      <div className="logoarea">
+        
+       <img className="logo" src="logo.png"/> 
+        </div>  
+
+
+        <div className="menu">
+
+        <Stack spacing={2}>
+        <ButtonGroup aria-label="plain button group" color='black' size='lg' spacing="0.4 rem">
+        <Button className='buttoncolor'>HOME</Button>
+        <Button className='buttoncolor'>EVENTS</Button> 
+        <Button className='buttoncolor'>TEAM</Button>
+        <Button className='buttoncolor'>CONTACT US</Button>
+        </ButtonGroup>
+        </Stack>
+        </div>
+
+
+        <div className="hamburger">
+           
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </div>
+
+
+      <CenterArea/>
+      <LowerArea/>
+
+
     </>
   )
 }

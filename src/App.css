@@ -1,42 +1,177 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html,body{
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.mainimg{
+  height: 100px;
+  width: 100px;
+  
 }
 
-.card {
-  padding: 2em;
+.centerimg{
+  height: 1000px;
+  width: 100vw;
 }
 
-.read-the-docs {
-  color: #888;
+.menu{
+  align-self: center;
+  position: relative;
+  left: 505px;
+  top: 15px;
+}
+
+.title{
+  position: fixed;
+  left: 100px;
+  top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+  font-weight: 800;
+
+}
+
+.frontarea{
+  height: 100vh;
+  background-image: url(mainimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  position: fixed;
+}
+
+.centerarea{
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  font-family: 'Kanit', sans-serif;
+  margin-top: 55px;
+  font-family: 'Martian Mono', monospace;
+ 
+}
+
+.akgeclogo{
+  height: 100px;
+  width: 100px;
+}
+
+.titledesc{
+  position: absolute;
+  left: 100px;
+  top: 58px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.collegetitle{
+  position: absolute;
+  right: 120px;
+  top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  font-weight: 800;
+}
+
+.buttoncolor{
+  font-weight: 600;
+}
+
+.meetingpic{
+  height: 100px;
+  width: 250px;
+}
+
+.logocontent{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 25px;
+}
+
+.desclogo{
+  height: 480px;
+  width: 400px;
+  position: relative;
+  left: 250px;
+  top: 20px;
+}
+
+.maindesc{
+  height: 200px;
+  width: 580px;
+  padding: 25px;
+  top: 25px;
+  position: relative;
+  left: 210px;
+}
+
+.orangetext{
+  color: orangered;
+}
+
+.lowerarea{
+  height: 1700px;
+  background-color: black;
+}
+
+.domaintitle{
+  color: beige;
+}
+
+.textdomain{
+  position: relative;
+  top: 40px;
+}
+
+.domains{
+  height: 1300px;
+  width: 1100px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  left: 70px;
+  top: 80px
+}
+
+.micimg{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 10px;
+  align-self: center;
+
+}
+
+.oratorytext{
+  position: relative;
+  align-self: flex-start;
+  left: 20px;
+  top: 60px;
+}
+
+.oratorydesc{
+  height: 175px;
+  color: azure;
+  position: relative;
+  width: 450px;
+  top: 170px;
+  left: -220px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
 }
