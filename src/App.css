@@ -140,7 +140,7 @@ html,body{
 }
 
 .domains{
-  height: 1300px;
+  height: 1500px;
   width: 1100px;
   position: relative;
   display: flex;
@@ -153,7 +153,7 @@ html,body{
   height: 300px;
   width: 300px;
   position: relative;
-  top: 10px;
+  top: 20px;
   align-self: center;
 
 }
@@ -162,7 +162,7 @@ html,body{
   position: relative;
   align-self: flex-start;
   left: 20px;
-  top: 60px;
+  top: 70px;
 }
 
 .oratorydesc{
@@ -170,8 +170,141 @@ html,body{
   color: azure;
   position: relative;
   width: 450px;
-  top: 170px;
+  top: 150px;
   left: -220px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   line-height: 25px;
+}
+
+.designimg{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 20px;
+  left: 320px;
+}
+
+.designtext{
+  position: relative;
+  align-self: flex-start;
+  left: 735px;
+  top: 40px;
+}
+
+.designdesc{
+  height: 175px;
+  color: azure;
+  position: relative;
+  width: 450px;
+  top: 120px;
+  left:290px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
+  text-align: right;
+}
+
+.writingimg{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 30px;
+}
+
+.writingtext{
+  position: relative;
+  align-self: flex-start;
+  left: 25px;
+  top: 40px;
+}
+
+.writingdesc{
+  height: 175px;
+  color: azure;
+  position: relative;
+  width: 450px;
+  top: 120px;
+  left: -190px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
+}
+
+.artimg{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 5px;
+  left: 610px;
+}
+
+.arttext{
+  position: relative;
+  align-self: flex-start;
+  left: -40px;
+  top: 390px;
+}
+
+.artdesc{
+  height: 175px;
+  color: azure;
+  position: relative;
+  width: 450px;
+  top: 100px;
+  left:580px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
+  text-align: right;
+}
+
+.herofooter{
+  height: 600px;
+  background-color: azure;
+  background-image: url('c:\Users\Arjun Jain\OneDrive\Desktop\HorizonWebsite\teampic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.firstherofooter{
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+
+.footerlogo{
+  position: relative;
+  left: 80px;
+  top: 19px;
+  width: 100px;
+}
+
+.logofootercontent{
+  position: relative;
+  left:80px;
+  top: 20px;
+  width: 300px;
+}
+
+.fblogo{
+  position: relative;
+  left: 133px;
+  top: -25px;
+}
+
+.reachus{
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  left: 600px;
+  top: -55px;
+}
+
+.emailfooter{
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: -13px;
+  left: 80px;
+  position: relative; 
 }

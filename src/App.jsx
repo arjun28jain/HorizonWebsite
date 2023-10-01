@@ -5,7 +5,7 @@ import ButtonGroup from '@mui/joy/ButtonGroup';
 import Stack from '@mui/joy/Stack';
 import CenterArea from './CenterArea';
 import LowerArea from './LowerArea';
-
+import Herofooter from './Herofooter';
 
 const App = () => {
   return (
@@ -40,9 +40,9 @@ const App = () => {
       </div>
     </div>
 
-
       <CenterArea/>
       <LowerArea/>
+      <Herofooter/>
 
 
     </>
