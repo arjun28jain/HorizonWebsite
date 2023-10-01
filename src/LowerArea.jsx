@@ -30,9 +30,9 @@ const LowerArea = () => {
          aesthetic finesse. It is the meticulous orchestration of ideas, materials, and technologies, aimed at crafting 
          innovative solutions to complex problems. Designing transcends mere ornamentation, delving deep into the realms of form and function.
         </p>
-        <img className='designimg' src="micimgfour.jpg"/>
+        <img className='designimg' src="designimg2.jpg"/>
 
-        <img className='writingimg' src="micimgfour.jpg"/>
+        <img className='writingimg' src="writingimg.jpg"/>
         <Typography color='whitesmoke' fontSize='50px'fontFamily='sans-serif' className='writingtext'> WRITING </Typography>
         <p className='writingdesc'>
         Writing is a multifaceted communicative art form, wherein individuals meticulously encode their thoughts, emotions, and 
@@ -46,7 +46,7 @@ const LowerArea = () => {
          transcending mere aesthetics to evoke profound emotional and intellectual responses. Rooted in profound cultural, 
           historical, and philosophical contexts.
         </p>
-        <img className='artimg' src="micimgfour.jpg"/>
+        <img className='artimg' src="artimg.jpg"/>
 
         </div>
        

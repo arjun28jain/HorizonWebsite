@@ -9,35 +9,22 @@ const FrontArea = () => {
   return (
    <>
    <div className="frontarea">
-    <div className="title">HORIZON</div>
-    {/*} <div className="collegetitle">Ajay Kumar Garg <br/>Engineering College</div> */}
+    <div className="newnavbar"> </div>
+    
     <div className="titledesc">Exploring Extremities and Beyond...</div>
-    <div className="navbar">
-      <div className="logoarea">
-        
+    <div className="title">HORIZON</div>
        <img className="logo" src="logo.png"/> 
-        </div>  
-
 
         <div className="menu">
-
-        <Stack spacing={2}>
-        <ButtonGroup aria-label="plain button group" color='black' size='lg' spacing="0.4 rem">
-        <Button className='buttoncolor'>HOME</Button>
-        <Button className='buttoncolor'>EVENTS</Button> 
-        <Button className='buttoncolor'>TEAM</Button>
-        <Button className='buttoncolor'>CONTACT US</Button>
-        </ButtonGroup>
-        </Stack>
+        <Stack spacing={2} direction="row" >
+      <Button variant="text"> <p className='buttontext'> HOME </p ></Button>
+      <Button variant="text"><p className='buttontext'> EVENTS </p ></Button>
+      <Button variant="text"><p className='buttontext'> TEAM </p ></Button>
+      <Button variant="text"><p className='buttontext'> CONTACT US </p ></Button>
+      </Stack>
         </div>
-
-
-        <div className="hamburger">
            
-        </div>
-      </div>
-    </div>
-   
+        </div>   
    </>
   )
 }
