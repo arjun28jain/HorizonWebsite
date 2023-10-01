@@ -31,10 +31,10 @@ html,body{
 
 .menu{
   align-self: center;
-  position: relative;
+  position: absolute;
   left: 1050px;
-  top: -150px;
   width: 550px;
+  top: 3px;
 }
 
 .buttontext{
@@ -44,7 +44,7 @@ html,body{
 
 .title{
   left: 90px;
-  top: 50px;
+  top: 41px;
   font-family: 'Montserrat', sans-serif;
   font-size: xx-large;
   font-weight: 800;
@@ -72,7 +72,7 @@ html,body{
   height: 110px;
   width: 90px;
   position: relative;
-  top: 5px;
+  top: -10px;
 }
 
 .centerarea{
@@ -85,9 +85,9 @@ html,body{
 }
 
 .titledesc{
-  position: absolute;
+  position: relative;
   left: 92px;
-  top: 90px;
+  top: 95px;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 600;
@@ -282,7 +282,7 @@ html,body{
 .arttext{
   position: relative;
   align-self: flex-start;
-  left: -40px;
+  left: -60px;
   top: 390px;
 }
 
@@ -350,4 +350,36 @@ html,body{
   top: -13px;
   left: 80px;
   position: relative; 
+}
+
+.kiranhover:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 1.2s;
+  transition-delay: 0.5s;
+}
+
+.dishahover:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 1.2s;
+  transition-delay: 0.5s;
+}
+
+.scrollshover:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 1.2s;
+  transition-delay: 0.5s;
+}
+
+.fresherhover:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 1.2s;
+  transition-delay: 0.5s;
 }

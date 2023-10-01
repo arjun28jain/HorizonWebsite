@@ -3,13 +3,14 @@ import Button from '@mui/joy/Button';
 import ButtonGroup from '@mui/joy/ButtonGroup';
 import Stack from '@mui/joy/Stack';
 import './App.css'
+import Navbar from './Navbar';
 
 
 const FrontArea = () => {
   return (
    <>
    <div className="frontarea">
-    <div className="newnavbar"> </div>
+    <Navbar/>
     
     <div className="titledesc">Exploring Extremities and Beyond...</div>
     <div className="title">HORIZON</div>
