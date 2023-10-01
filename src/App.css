@@ -13,7 +13,7 @@ html,body{
 
 .newnavbar{
   background-color: black; 
-  height: 60px;
+  height: 40px;
   width: 100vw;
   position: absolute;
 }
@@ -33,22 +33,32 @@ html,body{
   align-self: center;
   position: relative;
   left: 1050px;
-  top: -130px;
+  top: -150px;
   width: 550px;
 }
 
 .buttontext{
-  font-size: larger;
-  color: orangered;
+  font-size: medium;
+  color: rgb(255, 255, 255);
 }
 
 .title{
   left: 90px;
-  top: 70px;
+  top: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: xx-large;
   font-weight: 800;
   position: relative;
+}
+
+.buttontext:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.buttontext:hover{
+  color: orangered;
 }
 
 .frontarea{
@@ -59,10 +69,10 @@ html,body{
 }
 
 .logo{
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 90px;
   position: relative;
-  top: 25px;
+  top: 5px;
 }
 
 .centerarea{
@@ -74,15 +84,10 @@ html,body{
  
 }
 
-.akgeclogo{
-  height: 100px;
-  width: 100px;
-}
-
 .titledesc{
   position: absolute;
   left: 92px;
-  top: 108px;
+  top: 90px;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 600;
@@ -244,6 +249,34 @@ html,body{
   position: relative;
   top: 5px;
   left: 610px;
+}
+
+.artimg:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 0.4s;
+}
+
+.writingimg:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 0.4s;
+}
+
+.designimg:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 0.4s;
+}
+
+.micimg:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition-duration: 0.4s;
 }
 
 .arttext{
