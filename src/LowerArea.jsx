@@ -11,7 +11,7 @@ const LowerArea = () => {
   return (
 
     <div className='lowerarea'>
-        <Typography color='white' fontSize='50px' align='center' className='textdomain'>DOMAINS</Typography>
+        <Typography color='white' fontSize='50px' fontFamily='serif' align='center' className='textdomain'>Explore our Domains <img src='Direction.jpg' height='80px' width='80px'/></Typography>
 
         <div className="domains">
         

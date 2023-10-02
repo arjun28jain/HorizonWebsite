@@ -4,11 +4,10 @@ import React from 'react'
 const Events = () => {
   return (
   <>
+  <div>
   <div className='eventsfront' style={{height:'200px', width:'100vw'}}>
-   <div className="eventnavbar" style={{backgroundColor: 'black', width:'100vw', height:'60px'}}>
-   </div>
 
-   <p style={{fontWeight:'20px', fontSize:'50px', fontFamily:'Montserrat, sans-serif', textAlign:'center', 
+   <p style={{fontWeight:'20px', fontSize:'70px', fontFamily:'Montserrat, sans-serif', textAlign:'center', 
     fontWeight:'500',marginTop:'25px'}}> 
     Our Events </p> 
     
@@ -16,19 +15,16 @@ const Events = () => {
      Some of the Major Events Organised  
      by our team </p><br/>
      <hr></hr>
-
+     </div>
 
       <div className="eventskiran" style={{height:'580px', width:'100vw', top:'60px',position:'relative', backgroundColor:'azure'}}>
 
           <p className='kirantext' style={{textAlign:'center', fontWeight:'20px', fontSize:'80px', fontFamily:'Montserrat, sans-serif',textAlign:'center',fontWeight:'500', color:'orangered'}}>KIRAN </p> <p className="kirandesc" style={{fontFamily:'Montserrat, sans-serif',fontSize:'25px', textAlign:'center', 
            fontWeight:'400'}}> The Antiragging Drive</p>
 
-
-           
           <img src="_DSC9571.jpg" className='kiranhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
           <img src="DSC_5757.jpg" className='kiranhover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
           <img src="DSC_5793.jpg" className='kiranhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
-
           
             </div>
 
@@ -38,13 +34,10 @@ const Events = () => {
           <p className='dishatext' style={{textAlign:'center', fontWeight:'20px', fontSize:'80px', fontFamily:'Montserrat, sans-serif',textAlign:'center',fontWeight:'500', color:'cornflowerblue'}}>DISHA </p> <p className="dishadesc" style= 
            {{fontFamily:'Montserrat, sans-serif',fontSize:'25px', textAlign:'center', 
            fontWeight:'400'}}> The Induction Program</p>
-
-
            
           <img src="_DSC9571.jpg" className='dishahover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="DSC_5757.jpg" className='dishahover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src="disha.png" className='dishahover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
           <img src="DSC_5793.jpg" className='dishahover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
-
           
             </div>
 
@@ -61,7 +54,7 @@ const Events = () => {
 
             </div>
       
-            <div className="eventfreshers" style={{height:'600px', width:'100vw', 
+            <div className="eventfreshers" style={{height:'495px', width:'100vw', 
                top:'60px',position:'relative',backgroundColor:'azure'}}>
 
           <p className='freshersstext' style={{textAlign:'center', fontWeight:'20px', fontSize:'80px', fontFamily:'Montserrat, sans-serif',textAlign:'center',fontWeight:'500', color:'purple'}}>FRESHERS</p> <p className="freshersdesc" style= 
@@ -75,7 +68,7 @@ const Events = () => {
             </div>
 
      </div>
-  
+     
   </>
   )
 }

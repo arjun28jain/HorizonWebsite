@@ -5,15 +5,19 @@ import LowerArea from './LowerArea';
 import Herofooter from './Herofooter';
 import Events from './Events';
 import FrontArea from './FrontArea';
+import Team from './Team';
+
 
 const App = () => {
   return (
     <>
+    
       <FrontArea/>
       <CenterArea/>
       <LowerArea/>
-      <Herofooter/>
       <Events/>
+      <Team/>
+      <Herofooter/>
     </>
   )
 }

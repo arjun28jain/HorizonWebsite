@@ -12,10 +12,11 @@ html,body{
 }
 
 .newnavbar{
-  background-color: black; 
+  background-color: rgb(248, 248, 248); 
   height: 40px;
   width: 100vw;
-  position: absolute;
+  position: fixed;
+  opacity: 40%;
 }
 
 .mainimg{
@@ -31,22 +32,23 @@ html,body{
 
 .menu{
   align-self: center;
-  position: absolute;
+  position: fixed;
   left: 1050px;
   width: 550px;
   top: 3px;
+  z-index: 2;
 }
 
 .buttontext{
   font-size: medium;
-  color: rgb(255, 255, 255);
+  color: rgb(6, 5, 5);
 }
 
 .title{
-  left: 90px;
-  top: 41px;
+  left: 55px;
+  top: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-size: xx-large;
+  font-size: largeR;
   font-weight: 800;
   position: relative;
 }
@@ -69,10 +71,11 @@ html,body{
 }
 
 .logo{
-  height: 110px;
-  width: 90px;
+  height: 50px;
+  width: 40px;
   position: relative;
-  top: -10px;
+  top: -25px;
+  left: 10px;
 }
 
 .centerarea{
@@ -87,7 +90,7 @@ html,body{
 .titledesc{
   position: relative;
   left: 92px;
-  top: 95px;
+  top: 0px;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 600;
@@ -170,6 +173,7 @@ html,body{
   position: relative;
   top: 20px;
   align-self: center;
+  border: 3px orangered solid;
 
 }
 
@@ -179,6 +183,11 @@ html,body{
   left: 20px;
   top: 70px;
 }
+
+.oratorytext:hover{
+color: orangered;
+}
+
 
 .oratorydesc{
   height: 175px;
@@ -197,6 +206,7 @@ html,body{
   position: relative;
   top: 20px;
   left: 310px;
+  border: 3px orangered solid;
 }
 
 .designtext{
@@ -205,6 +215,10 @@ html,body{
   left: 735px;
   top: 40px;
 }
+
+.designtext:hover{
+  color: orangered;
+  }
 
 .designdesc{
   height: 175px;
@@ -223,6 +237,7 @@ html,body{
   width: 320px;
   position: relative;
   top: 30px;
+  border: 3px orangered solid;
 }
 
 .writingtext{
@@ -231,6 +246,10 @@ html,body{
   left: 25px;
   top: 40px;
 }
+
+.writingtext:hover{
+  color: orangered;
+  }
 
 .writingdesc{
   height: 175px;
@@ -249,34 +268,7 @@ html,body{
   position: relative;
   top: 5px;
   left: 610px;
-}
-
-.artimg:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); 
-  transition-duration: 0.4s;
-}
-
-.writingimg:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); 
-  transition-duration: 0.4s;
-}
-
-.designimg:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); 
-  transition-duration: 0.4s;
-}
-
-.micimg:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); 
-  transition-duration: 0.4s;
+  border: 3px orangered solid;
 }
 
 .arttext{
@@ -285,6 +277,10 @@ html,body{
   left: -60px;
   top: 390px;
 }
+
+.arttext:hover{
+  color: orangered;
+  }
 
 .artdesc{
   height: 175px;

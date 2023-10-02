@@ -12,8 +12,8 @@ const FrontArea = () => {
    <div className="frontarea">
     <Navbar/>
     
-    <div className="titledesc">Exploring Extremities and Beyond...</div>
-    <div className="title">HORIZON</div>
+    {/*<div className="titledesc">Exploring Extremities and Beyond...</div>*/}
+    <div className="title"> TEAM HORIZON</div>
        <img className="logo" src="logo.png"/> 
 
         <div className="menu">
