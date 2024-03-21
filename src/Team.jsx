@@ -4,11 +4,11 @@ const Team = () => {
   return (
     <>
 
-  <div style={{height:'40px',width:'100vw',backgroundColor:'black', marginTop:'60px'}}> </div>
+  <div  style={{height:'40px',width:'100vw',backgroundColor:'black', marginTop:'60px'}}> </div>
 
       <div style={{height:'200px',width:'100vw'}}>
 
-        <p style={{fontWeight:'20px', fontSize:'65px', fontFamily:'Montserrat, sans-serif', textAlign:'center', 
+        <p id='teamsmain' style={{fontWeight:'20px', fontSize:'65px', fontFamily:'Montserrat, sans-serif', textAlign:'center', 
            fontWeight:'500',marginTop:'55px'}}> 
             Our TEAM 
         </p>
@@ -16,6 +16,8 @@ const Team = () => {
         <p style={{fontFamily:'Montserrat, sans-serif',fontSize:'20px', textAlign:'center', fontWeight:'700', color:'orangered'}}> 
         Introducing our Team Members
         </p>
+        <br/>
+        <hr></hr>
         <br/>
       </div>
 
@@ -247,15 +249,6 @@ const Team = () => {
        
         
   </div>
-
-       
-        
-  
-
-
-
-
-
     </>
   )
 }

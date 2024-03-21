@@ -6,7 +6,7 @@ const CenterArea = () => {
   return (
     <>
     
-    <div className="centerarea">
+    <div className="centerarea" id='home'>
      <center> <Typography level="h1" color='white' fontSize='50px'>Bridging Innovation and Leadership</Typography> </center>
  
         <div className="logocontent">

@@ -4,7 +4,7 @@ import React from 'react'
 const Events = () => {
   return (
   <>
-  <div>
+  <div id='eventsmain'>
   <div className='eventsfront' style={{height:'200px', width:'100vw'}}>
 
    <p style={{fontWeight:'20px', fontSize:'70px', fontFamily:'Montserrat, sans-serif', textAlign:'center', 

@@ -15,7 +15,7 @@ html,body{
   background-color: rgb(248, 248, 248); 
   height: 40px;
   width: 100vw;
-  position: fixed;
+  position: absolute;
   opacity: 40%;
 }
 
@@ -32,11 +32,12 @@ html,body{
 
 .menu{
   align-self: center;
-  position: fixed;
-  left: 1050px;
+  position: relative;
+  left: 1000px;
   width: 550px;
-  top: 3px;
+  top: -75px;
   z-index: 2;
+  
 }
 
 .buttontext{

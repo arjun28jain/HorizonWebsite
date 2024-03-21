@@ -3,7 +3,7 @@ import React from 'react'
 
 const Herofooter = () => {
   return (
-    <div className="herofooter">
+    <div className="herofooter" id='contact'>
         <div className="firstherofooter">
             <Typography fontSize='40px' color='whitesmoke' className='logofootercontent'> Team Horizon</Typography>            
             <a href='https://www.instagram.com/p/Cxm_nEyyAzQ/' className='footerlogo'><img src="instagram.png" height='40px' 
