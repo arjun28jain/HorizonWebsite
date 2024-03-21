@@ -1,0 +1,37 @@
+.team-section {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-bottom: 10px;
+  }
+  
+  .image-card p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .image-card img:last-child {
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+  }
+  

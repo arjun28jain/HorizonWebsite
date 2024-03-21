@@ -19,6 +19,7 @@ const Team = () => {
         <br/>
         <hr></hr>
         <br/>
+
       </div>
 
   <div className="fouthyear" style={{height:'1200px', width:'100vw', marginTop:'0px', marginBottom:'10px'}}>
@@ -247,7 +248,6 @@ const Team = () => {
 
        {/* NO HEAD IMAGES */}
        
-        
   </div>
     </>
   )
