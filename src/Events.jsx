@@ -6,6 +6,9 @@ import pic3 from '../images/kiranthirdimg.jpg'
 import pic4 from '../images/dishaone.jpg'
 import pic5 from '../images/disha.png'
 import pic6 from '../images/dishathree.jpg'
+import pic7 from '../images/scrollsimg1.jpg'
+import pic8 from '../images/scrollsimg2.jpg'
+import pic9 from '../images/scrollsimg3.jpg'
 
 const Events = () => {
   return (
@@ -54,9 +57,9 @@ const Events = () => {
            {{fontFamily:'Montserrat, sans-serif',fontSize:'25px', textAlign:'center', 
            fontWeight:'400'}}> Students Creative Oratory Learning Skills ​</p>
            
-          <img src="scrollsimg2.jpg" className='scrollshover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="scrollsimg1.jpg" className='scrollshover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="scrollsimg2.jpg" className='scrollshover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
+          <img src={pic8} className='scrollshover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic7} className='scrollshover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic8} className='scrollshover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
 
             </div>
       
@@ -67,9 +70,9 @@ const Events = () => {
            {{fontFamily:'Montserrat, sans-serif',fontSize:'25px', textAlign:'center', 
            fontWeight:'400'}}> The Annual Freshers Party ​</p>
            
-          <img src="scrollsimg2.jpg" className='fresherhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="scrollsimg1.jpg" className='fresherhover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="scrollsimg2.jpg" className='fresherhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
+          <img src={pic8} className='fresherhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic7} className='fresherhover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic8} className='fresherhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
 
             </div>
 

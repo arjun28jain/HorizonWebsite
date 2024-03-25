@@ -29,7 +29,9 @@ const FrontArea = () => {
       <Button variant="text" onClick={()=>scroll('contact')}><p className='buttontext'> CONTACT US </p ></Button>
       </Stack>
         </div>
-           
+           <span style={{ position:'relative', float:'right', right:'150px'}}>
+            <button onClick={()=>scroll('wcdreg')} style={{padding:'10px', border: '3px solid #000',backgroundColor: 'orange',color: 'black',padding: '10px 20px',fontSize: '16px',fontWeight: 'bold',borderRadius: '5px',cursor: 'pointer',}} className='wcdbuttontext' > WILDCARD REGISTRATIONS '24 </button>
+           </span>
         </div>   
    </>
   )

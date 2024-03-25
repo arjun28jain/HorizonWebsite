@@ -60,6 +60,12 @@ html,body{
     transform: scale(1.2); 
 }
 
+.wcdbuttontext:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
 .buttontext:hover{
   color: orangered;
 }
@@ -141,7 +147,12 @@ html,body{
 }
 
 .orangetext{
-  color: orangered;
+  color: rgb(11, 7, 5);
+  font-size: medium;
+}
+.blacktext{
+  color: rgb(205, 60, 19);
+  font-size: medium;
 }
 
 .lowerarea{
@@ -379,4 +390,29 @@ color: orangered;
   transform: scale(1.2); 
   transition-duration: 1.2s;
   transition-delay: 0.5s;
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.wcdbuttontext {
+  border: 3px solid #000;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: blink 1.5s infinite; 
 }
