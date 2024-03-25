@@ -5,6 +5,7 @@ import Stack from '@mui/joy/Stack';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';  
 import './App.css'
 import Navbar from './Navbar';
+import logo from '../images/logo.png'
 
 function scroll(targetid){
   document.getElementById(targetid).scrollIntoView({ behavior: 'smooth' });
@@ -18,7 +19,7 @@ const FrontArea = () => {
     
     {/*<div className="titledesc">Exploring Extremities and Beyond...</div>*/}
     <div className="title"> TEAM HORIZON</div>
-       <img className="logo" src="logo.png"/> 
+       <img className="logo" src={logo}/> 
 
         <div className="menu">
         <Stack spacing={2} direction="row" >

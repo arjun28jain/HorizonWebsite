@@ -1,5 +1,11 @@
 import { Typography } from '@mui/joy'
 import React from 'react'
+import pic1 from '../images/kiranfirstimg.jpg'
+import pic2 from '../images/kiransecondimg.jpg'
+import pic3 from '../images/kiranthirdimg.jpg'
+import pic4 from '../images/dishaone.jpg'
+import pic5 from '../images/disha.png'
+import pic6 from '../images/dishathree.jpg'
 
 const Events = () => {
   return (
@@ -22,9 +28,9 @@ const Events = () => {
           <p className='kirantext' style={{textAlign:'center', fontWeight:'20px', fontSize:'80px', fontFamily:'Montserrat, sans-serif',textAlign:'center',fontWeight:'500', color:'orangered'}}>KIRAN </p> <p className="kirandesc" style={{fontFamily:'Montserrat, sans-serif',fontSize:'25px', textAlign:'center', 
            fontWeight:'400'}}> The Antiragging Drive</p>
 
-          <img src="_DSC9571.jpg" className='kiranhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="DSC_5757.jpg" className='kiranhover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="DSC_5793.jpg" className='kiranhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
+          <img src={pic2} className='kiranhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic3} className='kiranhover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic1} className='kiranhover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
           
             </div>
 
@@ -35,9 +41,9 @@ const Events = () => {
            {{fontFamily:'Montserrat, sans-serif',fontSize:'25px', textAlign:'center', 
            fontWeight:'400'}}> The Induction Program</p>
            
-          <img src="_DSC9571.jpg" className='dishahover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="disha.png" className='dishahover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
-          <img src="DSC_5793.jpg" className='dishahover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
+          <img src={pic4} className='dishahover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic5} className='dishahover' alt="" style={{width:'520px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>
+          <img src={pic6} className='dishahover' alt="" style={{width:'500px',height:'350px', marginTop:'20px',marginLeft:'2px', marginRight:'2px'}}/>   
           
             </div>
 

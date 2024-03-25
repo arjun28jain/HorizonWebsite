@@ -1,4 +1,6 @@
 import React from 'react'
+import omar from '../images/omarsir.jpg'
+import radhika from '../images/radhika_edited.jpg'
 
 const Team = () => {
   return (
@@ -33,7 +35,7 @@ const Team = () => {
 
         <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-        <img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'80px', top:'-10px'}}/> 
+        <img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'80px', top:'-10px'}}/> 
         <p style={{position:'relative', top:'-2.5px' ,left:'110px', fontSize:'25px'}}> Mohd Omar Siddiqui <br/> <p style={{width:'210px', textAlign:'center'}}> HEAD </p> </p>
         <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'200px', top:'8px'}}/>
       
@@ -41,7 +43,7 @@ const Team = () => {
 
         <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-        <img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'15px', top:'5px'}}/> 
+        <img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'15px', top:'5px'}}/> 
         <p style={{position:'relative', top:'12px' ,left:'60px', fontSize:'25px'}}> Radhika Aggarwal <br/> <p style={{width:'190px', textAlign:'center'}}> HEAD </p></p>
         <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'140px', top:'20px'}}/>
       
@@ -56,35 +58,35 @@ const Team = () => {
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'90px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'180px', top:'8px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'90px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'165px', top:'6px'}}/>
 </div>
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'65px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'160px', top:'5px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'70px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'150px', top:'6px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'50px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'130px', top:'6px'}}/>
 </div>
@@ -95,35 +97,35 @@ const Team = () => {
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'90px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'180px', top:'8px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'90px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'165px', top:'6px'}}/>
 </div>
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'65px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'160px', top:'5px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'70px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'150px', top:'6px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'50px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'130px', top:'6px'}}/>
 </div>
@@ -149,7 +151,7 @@ const Team = () => {
 
         <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-        <img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'80px', top:'-10px'}}/> 
+        <img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'80px', top:'-10px'}}/> 
         <p style={{position:'relative', top:'-2.5px' ,left:'110px', fontSize:'25px'}}> Mohd Omar Siddiqui <br/> <p style={{width:'210px', textAlign:'center'}}> HEAD </p> </p>
         <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'200px', top:'8px'}}/>
       
@@ -157,7 +159,7 @@ const Team = () => {
 
         <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-        <img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'15px', top:'5px'}}/> 
+        <img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'15px', top:'5px'}}/> 
         <p style={{position:'relative', top:'12px' ,left:'60px', fontSize:'25px'}}> Radhika Aggarwal <br/> <p style={{width:'190px', textAlign:'center'}}> HEAD </p></p>
         <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'140px', top:'20px'}}/>
       
@@ -172,35 +174,35 @@ const Team = () => {
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'90px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'180px', top:'8px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'90px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'165px', top:'6px'}}/>
 </div>
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'65px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'160px', top:'5px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'70px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'150px', top:'6px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'50px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'130px', top:'6px'}}/>
 </div>
@@ -211,35 +213,35 @@ const Team = () => {
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'90px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'180px', top:'8px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'90px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'165px', top:'6px'}}/>
 </div>
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src="Mohd_Omar_Siddiqui_CSE.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
+<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'65px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'160px', top:'5px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'20px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'70px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'150px', top:'6px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src="radhika_edited.jpg" alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
+<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'05px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'50px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src='instagram.png' height='30px' width='30px' style={{position:'relative', left:'130px', top:'6px'}}/>
 </div>

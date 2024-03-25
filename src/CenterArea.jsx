@@ -1,6 +1,7 @@
 import React from 'react'
 import Typography from '@mui/joy/Typography';
 import './App.css'
+import logo from '../images/logo.png'
 
 const CenterArea = () => {
   return (
@@ -11,7 +12,7 @@ const CenterArea = () => {
  
         <div className="logocontent">
 
-        <img className='desclogo' src="logo.png"/>
+        <img className='desclogo' src={logo}/>
         <div className="maindesc">
         <h4>Team Horizon is a dynamic and innovative techno-managerial society at AKGEC. Established with a 
         vision to foster creativity, leadership, and a passion for technology, we serve as a hub for students to explore the 
