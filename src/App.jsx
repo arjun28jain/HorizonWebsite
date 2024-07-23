@@ -7,6 +7,7 @@ import Events from './Events';
 import FrontArea from './FrontArea';
 import Team from './Team';
 import Form from './form';
+import Cards from './Cards';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Team/>
       <Form/>
       <Herofooter/>
+      <Cards/>
     </>
   )
 }

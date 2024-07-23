@@ -1,7 +1,12 @@
 import React from 'react'
-import omar from '../images/omarsir.jpg'
-import radhika from '../images/radhika_edited.jpg'
+import omar from '../images/Omar.jpg'
+import sajal from '../images/sajal.jpg'
+import satwik from '../images/Satvik.jpg'
+import radhika from '../images/radhika_.jpg'
+import sameer from '../images/Sameer.jpg'
 import igm from '../images/instagram.png'
+
+
 
 const Team = () => {
   return (
@@ -22,8 +27,7 @@ const Team = () => {
         <br/>
         <hr></hr>
         <br/>
-
-      </div>
+        </div>
 
   <div className="fouthyear" style={{height:'1200px', width:'100vw', marginTop:'0px', marginBottom:'10px'}}>
 
@@ -49,7 +53,6 @@ const Team = () => {
         <img src={igm} height='30px' width='30px' style={{position:'relative', left:'140px', top:'20px'}}/>
       
       </div>
-
     </div>
     <br/><br/>
 
@@ -59,21 +62,21 @@ const Team = () => {
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
+<img src={sajal} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'60px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'90px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src={igm} height='30px' width='30px' style={{position:'relative', left:'180px', top:'8px'}}/>
 </div>
 
 <div style={{ height:'330px', width:'350px', display:'flex', flexDirection:'column', justifyContent:'center', alignContent:'center'}}> 
 
-<img src={radhika} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
+<img src={satwik} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'45px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-3px' ,left:'90px', fontSize:'25px'}}> Radhika Aggarwal</p>
 <img src={igm} height='30px' width='30px' style={{position:'relative', left:'165px', top:'6px'}}/>
 </div>
 
 <div style={{height:'330px', width:'350px', display:'flex', flexDirection:'column'}}> 
 
-<img src={omar} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
+<img src={sameer} alt="no pic" height='250px' width='250px' style={{border:'3px black solid', borderRadius:'50%',margin:'10px',position:'relative', left:'35px', top:'-10px'}}/> 
 <p style={{position:'relative', top:'-2.5px' ,left:'65px', fontSize:'25px'}}> Mohd Omar Siddiqui</p>
 <img src={igm} height='30px' width='30px' style={{position:'relative', left:'160px', top:'5px'}}/>
 </div>
