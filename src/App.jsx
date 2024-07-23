@@ -6,7 +6,7 @@ import Herofooter from './Herofooter';
 import Events from './Events';
 import FrontArea from './FrontArea';
 import Team from './Team';
-import Form from './form';
+import Form from './Form';
 
 
 const App = () => {
