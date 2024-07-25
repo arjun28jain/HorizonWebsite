@@ -1,9 +1,12 @@
 {
+  "homepage": "https://arjun28jain.github.io/HorizonWebsite/",
   "name": "horizonwebsite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -15,6 +18,7 @@
     "@mui/icons-material": "^5.16.4",
     "@mui/joy": "^5.0.0-beta.8",
     "@mui/material": "^5.14.11",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
