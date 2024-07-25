@@ -21,7 +21,6 @@ const App = () => {
       <Team/>
       <Form/>
       <Herofooter/>
-      <Cards/>
     </>
   )
 }
